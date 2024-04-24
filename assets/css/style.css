@@ -39,7 +39,7 @@ button {
 nav {
   background-color: #333;
   color: #fff;
-  padding: 10px 20px;
+  padding: 20px 20px;
   position: fixed;
   width: 100%;
   top: 0;
@@ -64,4 +64,25 @@ a {
 
 body {
   padding-top: 40px; 
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+  overflow: hidden; 
+}
+
+.box-content {
+  white-space: normal; 
 }
