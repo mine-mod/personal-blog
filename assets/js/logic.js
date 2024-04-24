@@ -1,15 +1,9 @@
-const themeSwitcher = document.querySelector('#theme-switcher');
-const container = document.querySelector('.container');
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('change', function() {
+    document.body.classList.toggle('dark-mode');
+});
 
-let mode = 'dark';
 
-themeSwitcher.addEventListener('click', () => {
-  if (mode === 'dark') {
-    mode = 'light';
-    container.setAttribute('class', 'light');
-  }
-  else {
-    mode = 'dark';
-    container.setAttribute('class', 'dark');
-  }
+document.getElementById('backButton').addEventListener('click', function() {
+    window.location.href = 'index.html';
 });
