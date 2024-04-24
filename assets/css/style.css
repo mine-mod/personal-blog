@@ -12,12 +12,13 @@ body {
 }
 
 form {
-  width: 80%;
-  max-width: 400px;
+  width: 100%;
+  max-width: 800px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
+  color: black;
 }
 
 label,
@@ -36,6 +37,7 @@ button {
   border-radius: 3px;
   cursor: pointer;
 }
+
 nav {
   background-color: #333;
   color: #fff;
@@ -85,4 +87,17 @@ body {
 
 .box-content {
   white-space: normal; 
+  color: black;
+}
+
+img {
+  max-width: 300px; 
+  max-height: 300px; 
+}
+
+.darkButton {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(120, 3, 173);
 }
